@@ -9,5 +9,8 @@ styleUrls : ['./footer.component.css']
 })
 export class FooterComponent{
   //usamos any para definir un objeto sin usar una libreria o un archivo de extension(se llama este objeto en footer.component.html)
-public autor : any = {nombre : 'Juan', apellido : 'Perez'};
+public autor : any = {nombre : 'Albian', apellido : 'Perez'};
+}
+export class FooterLink {
+public link : any = {repo: 'https://github.com/Albin18/Practica-Angular'}
 }
